@@ -1,0 +1,36 @@
+.Discount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+}
+
+.Discount_Text{
+    width: 32rem;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+
+.Discount_Text h1{
+    color: #151875;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.Discount_Text p {
+    color: #ACABC3;
+    margin-top: 20px;
+    font-size: 16px;
+}
+/* className="bg-[#FB2B86] mt-5 text-white px-6 py-3 font-semibold rounded-sm" */
+
+.Discount_Text button{
+    background-color: #FB2B86;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}

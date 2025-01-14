@@ -1,0 +1,127 @@
+.Trending_Product_card{
+    width: 270px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.Trending_Product_card_Top{
+    width: 247px;
+    height: 244px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #F5F6F8;
+}
+
+.Trending_Product_card_Botton {
+         margin-bottom: 10px;
+}
+
+.Trending_Product_card_Botton h3{
+    font-size: 16px;
+    color: #151875;
+    font-weight: 700;
+}
+
+
+.Trending_Product_card_Botton_Price{
+    margin-top: 8px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #1518754D;
+}
+
+.Trending_Product_card_Botton_Price span:first-child{
+    color: #151875;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.Product_card{
+    background-color: #31208A0D;
+    width: 420px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Product_card_text{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.Product_card_text h3{
+    color: #151875;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.Product_card_text p{
+    color: #FB2E86;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.Product_card_img{
+    position: relative;
+    top: 15px;
+    left: 100px;
+}
+
+.miniProducts{
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    right: 20px;
+}
+
+.miniProducts_Card{
+    width: 270px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid #F5F6F8;
+}
+
+.miniProducts_Card_image{
+    width: 107px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #F5F6F8;
+}
+
+.miniProducts_Card_text{
+    position: relative;
+    right: 45px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #151875;
+}
+
+.Product_card_text h3{
+    font-size: 16px;
+    font-weight: 700;
+}

@@ -1,0 +1,107 @@
+.View{
+    width: 921px;
+    height: 258px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.View_image{
+    width: 284px;
+    height: 192px;
+}
+.View_Text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.View_Title{
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+
+.View_Title h2{
+  font-size: 19px;
+  font-weight: 700;
+  color: #151875;
+}
+.View_Title .Circle{
+    width: 42px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+
+}
+.View_Title .Circle span{ 
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+}
+
+.Circle span:nth-child(1){
+    background-color: #DE9034;
+}
+
+.Circle span:nth-child(2){
+    background-color: #EC42A2;
+}
+
+.Circle span:nth-child(3){
+    background-color: #151875;
+}
+
+.View_Price_Riview{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Price{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Price span:nth-child(1){
+    color: #151875;
+}
+
+.Price span:nth-child(2){
+    color: #EC42A2;
+    text-decoration: line-through;
+}
+
+.View_Text_Icons p{
+      color: #9295AA;
+      font-size: 17px;
+      font-weight: 400;
+}
+
+.icons {
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+    gap: 10px;
+}
+
+.icons span{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #EEEFFB; 
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #535399;
+    cursor: pointer;
+}

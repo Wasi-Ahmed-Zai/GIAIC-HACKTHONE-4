@@ -1,0 +1,85 @@
+.Sort{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sort_left h2{
+    color: #151875;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.Sort_left span{
+    color: #8A8FB9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Sort_right{
+    width: 50%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Sort_right_one {
+    display: flex;
+    gap: 10px;
+}
+.Sort_right_one span{
+    color: #3F509E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Sort_right_one input{
+    width: 55px;
+    height: 25px;
+    border: 1px solid #E7E6EF;
+}
+.Sort_right_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Sort_right_two span:nth-child(1){
+    color: #3F509E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Sort_right_two span:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8A8FB9;
+    font-size: 12px;
+    width: 96px;
+    height: 28px;
+    border: 1px solid #E7E6EF;
+}
+
+
+.Sort_right_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #151875;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Sort_right_three input{
+    border: 1px solid #E7E6EF;
+    width: 162px;
+    height: 30px;
+    color: black;
+    font-weight: 100;
+}

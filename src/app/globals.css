@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .wrapper {
+    @apply max-w-[1177px]  mx-4 sm:mx-6 md:mx-8 lg:mx-auto
+  }
+
+  .flex-center-between{
+    @apply flex items-center justify-between
+  }
+
+  .flex-center-center{
+    @apply flex items-center justify-center
+  }
+
+  .Navbar-top-font{
+    @apply text-[16px] font-semibold  
+  }
+
+  .Heading {
+    @apply font-black text-[#1A0B5B] text-[42px]
+  }
+}

@@ -1,0 +1,60 @@
+
+.card_b:hover h1{
+       color: white;
+}
+.card_b:hover .spann{
+    background-color: white;
+}
+
+.icons{
+    display: none;
+}
+.cart_t:hover .icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 11px;
+    left: 11px;
+    width: 30%;
+}
+
+.cart_t:hover  .detail{
+    display: block;
+}
+
+.detail{
+    display: none;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 94px;
+    height: 29px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 1px solid #08D15F;
+    background-color: #08D15F;
+    color: white;
+    cursor: pointer;
+}
+.icon{
+    color: #1389FF;
+    font-size: 20px;
+}
+
+.icon:hover{
+    color: #2F1AC4;
+    width: 20px;
+    height: 20px;
+}
+.p{
+    color: #151875;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card_b:hover .p{
+    color: white;
+}

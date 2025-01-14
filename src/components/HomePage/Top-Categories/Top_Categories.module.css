@@ -1,0 +1,98 @@
+.Top_Categor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 260px;
+    height: 345px;
+}
+
+.Top_Categor:hover .Top_Categor_image {
+    border-left: 7px solid rgb(77, 0, 128);
+}
+
+.Top_Categor_image:hover .Top_Categor_image_button{
+    visibility: visible;
+}
+.Top_Categor_image{
+    width: 100%;
+    height: 260px;
+    border-radius: 50%;
+    background-color: #31208A0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.Top_Categor_image_button{
+    width: 94px;
+    height: 29px;
+    color: white;
+    background-color:#08D15F ;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.Top_Categor_Text h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #151875;
+    text-align: center;
+}
+
+.Top_Categor_Text p{
+    font-size: 18px;
+    color: #151875;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Get_Latest{
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.Get_Latest_Text{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 14rem;
+
+}
+
+.Get_Latest_Text h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #151875;
+}
+
+.Get_Latest_Text button{
+    width: 170px;
+    height: 49px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    background-color: #FB2E86;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icon img{
+    position: relative;
+    bottom: 8rem;
+    margin: auto;
+    /* width: 100$; */
+}

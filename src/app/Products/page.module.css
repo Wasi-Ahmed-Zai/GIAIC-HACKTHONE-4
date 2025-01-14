@@ -1,0 +1,144 @@
+.Products{
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+.Products_First_Container{
+    height: 510px;
+    margin-bottom: 120px;
+
+    padding: 0px 40px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Products_First_Container .Products_images{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Products_image_list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.Products_Text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.Products_Text h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #0D134E;
+}
+
+.Products_Text span{
+    display: flex;
+}
+
+.Products_Text span:nth-child(3){
+    font-size: 16px;
+    font-weight: 500;
+    gap: 20px;            
+}
+
+.Products_Text span:nth-child(3) span:nth-child(1){
+    color: #0D134E;
+}
+
+.Products_Text span:nth-child(3) span:nth-child(2){
+    color: #FB2E86;
+    text-decoration: line-through;
+}
+
+.Products_Text span:nth-child(4){
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Products_Text span:nth-child(4) span:nth-child(1){
+    color: #0D134E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Products_Text span:nth-child(4) span:nth-child(2){
+    color: #A9ACC6;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+
+.Products_Text span:nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 20px;
+}
+
+.Products_Text span:nth-child(5) span:nth-child(1){
+    color: #0D134E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Products_Text span:nth-child(6){
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Products_Text span:nth-child(6) span{
+    color: #0D134E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.Products_Second_Container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Products_Headings{
+    display: flex;
+    gap: 50px;
+    color: #0D134E;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.Products_Headings h2:nth-child(1){
+    text-decoration: underline;
+}
+
+.Products_Paragrapa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Products_Paragrapa h2{
+    color: #0D134E;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Products_Paragrapa p{
+    color: #A9ACC6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
